@@ -21,7 +21,7 @@ def create_payment_df(df):
     
     return payment_df
 
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("./all_data.csv")
 
 bycity_top10_df = create_bycity_df(all_df)
 payment_df = create_payment_df(all_df)
